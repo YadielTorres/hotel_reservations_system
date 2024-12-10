@@ -41,8 +41,7 @@ VALUES
 'maria.garcia@example.com'),
 ('Carlos López', 'Boulevard de los Sueños 789', '555-9012',
 'carlos.lopez@example.com');
-INSERT INTO habitaciones (numero_habitacion, tipo, descripcion,
-precio, estado, imagen)
+INSERT INTO habitaciones (numero_habitacion, tipo, descripcion,precio, estado, imagen)
 VALUES
 ('101', 'Sencilla', 'Habitación sencilla con cama individual',
 50.00, 'Disponible', '/imagenes_habitaciones/101.jpg'),
@@ -55,8 +54,7 @@ size', 100.00, 'Disponible', '/imagenes_habitaciones/201.jpg'),
 ('301', 'Presidencial', 'Habitación presidencial con todas las
 comodidades', 250.00, 'Disponible',
 '/imagenes_habitaciones/301.jpg');
-INSERT INTO reservas (cliente_id, habitacion_id, fecha_inicio,
-fecha_fin, estado)
+INSERT INTO reservas (cliente_id, habitacion_id, fecha_inicio, fecha_fin, estado)
 VALUES
 (1, 101, '2023-01-15', '2023-01-20', 'Activa'),
 (2, 201, '2023-02-01', '2023-02-05', 'Activa'),
