@@ -49,11 +49,12 @@ de clientes, habitaciones y reservas.
 - Ejecutar la aplicación Flask: python app.py
 
 ### Capa de Datos (VM3)
-- 1. Clonar el repositorio y navegar a data_layer/.
+- ●Clonar el repositorio y navegar a data_layer/.
 - Importar los scripts SQL para crear la base de datos:
 - mysql -u usuario -p < sql_scripts/create_database.sql
-- 2. Asegurar que la base de datos está configurada y accesible desde VM2.
-- Estructura del Proyecto
+- Asegurar que la base de datos está configurada y accesible desde VM2.
+-
+### Estructura del Proyecto
 
 - data_layer/sql_scripts/
 - create_database.sql
