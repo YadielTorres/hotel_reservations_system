@@ -60,7 +60,7 @@ Cómo Ejecutar la Aplicación
 (Indica los pasos necesarios para poner en funcionamiento la aplicación completa)
 
 
-##Autores
+### Autores
 ● Yadiel Torres - Capa de Datos
 ● Yadiel Torres - Lógica de Negocio
 ● Yadiel Torres - Capa de Presentación
