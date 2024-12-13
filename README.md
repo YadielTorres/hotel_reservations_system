@@ -29,34 +29,34 @@ de clientes, habitaciones y reservas.
 ## Instalación y Configuración
 
 ### Capa de Presentación (VM1)
-● Clonar el repositorio:
-git clone https://github.com/tu_usuario/hotel_reservations_system.git
-Navegar al directorio de la capa de presentación:
-cd hotel_reservations_system/presentation_layer
-● Configurar NGINX según las instrucciones en
-presentation_layer/README.md.
-● Ejecutar SERVEO para exponer la aplicación.
+- ● Clonar el repositorio:
+- git clone https://github.com/tu_usuario/hotel_reservations_system.git
+- Navegar al directorio de la capa de presentación:
+- cd hotel_reservations_system/presentation_layer
+- ● Configurar NGINX según las instrucciones en
+- presentation_layer/README.md.
+- ● Ejecutar SERVEO para exponer la aplicación.
 
 
 ### Capa de Lógica de Negocio (VM2)
-● Clonar el repositorio y navegar al directorio correspondiente.
-Crear un entorno virtual y activar:
-python3 -m venv venv
-source venv/bin/activate
-Instalar las dependencias:
-pip install -r requirements.txt
-● Configurar las variables de entorno y la conexión a la base de datos.
-Ejecutar la aplicación Flask: python app.py
+- ● Clonar el repositorio y navegar al directorio correspondiente.
+- Crear un entorno virtual y activar:
+- python3 -m venv venv
+- source venv/bin/activate
+- Instalar las dependencias:
+- pip install -r requirements.txt
+- ● Configurar las variables de entorno y la conexión a la base de datos.
+- Ejecutar la aplicación Flask: python app.py
 
 ### Capa de Datos (VM3)
-1. Clonar el repositorio y navegar a data_layer/.
-Importar los scripts SQL para crear la base de datos:
-mysql -u usuario -p < sql_scripts/create_database.sql
-2. Asegurar que la base de datos está configurada y accesible desde VM2.
-Estructura del Proyecto
-(Describe la estructura de carpetas y archivos principales)
-Cómo Ejecutar la Aplicación
-(Indica los pasos necesarios para poner en funcionamiento la aplicación completa)
+- 1. Clonar el repositorio y navegar a data_layer/.
+- Importar los scripts SQL para crear la base de datos:
+- mysql -u usuario -p < sql_scripts/create_database.sql
+- 2. Asegurar que la base de datos está configurada y accesible desde VM2.
+- Estructura del Proyecto
+- (Describe la estructura de carpetas y archivos principales)
+- Cómo Ejecutar la Aplicación
+- (Indica los pasos necesarios para poner en funcionamiento la aplicación completa)
 
 
 ### Autores
