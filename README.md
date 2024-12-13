@@ -26,7 +26,6 @@ de clientes, habitaciones y reservas.
 - **NGINX**
 - **MariaDB**
 - **Acceso a SERVEO** para exponer la aplicación al exterior.
-- 
 ## Instalación y Configuración
 
 ### Capa de Presentación (VM1)
@@ -61,6 +60,6 @@ Cómo Ejecutar la Aplicación
 
 
 ### Autores
-● Yadiel Torres - Capa de Datos
-● Yadiel Torres - Lógica de Negocio
-● Yadiel Torres - Capa de Presentación
+- Yadiel Torres - Capa de Datos
+- Yadiel Torres - Lógica de Negocio
+- Yadiel Torres - Capa de Presentación
