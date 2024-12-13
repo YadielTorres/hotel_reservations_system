@@ -60,7 +60,7 @@ de clientes, habitaciones y reservas.
 - create_database.sql
 - usuarios.sql
   
-- Cómo Ejecutar la Aplicación
+### Cómo Ejecutar la Aplicación
 - Luego de correr el archivo create_database.sql, tendra que correr el archivo usuarios.sql para importar la tabla de usuarios
 
 
