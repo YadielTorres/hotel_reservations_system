@@ -54,9 +54,13 @@ de clientes, habitaciones y reservas.
 - mysql -u usuario -p < sql_scripts/create_database.sql
 - 2. Asegurar que la base de datos está configurada y accesible desde VM2.
 - Estructura del Proyecto
-- (Describe la estructura de carpetas y archivos principales)
+-data_layer/
+-├── sql_scripts/
+-│ ├── create_database.sql
+-│ └── usuarios.sql
+-
 - Cómo Ejecutar la Aplicación
-- (Indica los pasos necesarios para poner en funcionamiento la aplicación completa)
+- Luego de correr el archivo create_database.sql, tendra que correr el archivo usuarios.sql para importar la tabla de usuarios
 
 
 ### Autores
